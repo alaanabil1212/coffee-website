@@ -53,11 +53,11 @@ section {
 }
 
 .btn {
-  margin-top: 1rem;
+  margin-top: 2rem;
   display: inline-block;
   padding: 1.5rem 3rem;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
   height: auto;
   color: #131111;
   background: var(--main-color);
@@ -330,7 +330,7 @@ section {
 }
 .menu .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
 .menu .box-container .box {
@@ -339,8 +339,8 @@ section {
   border: var(--border);
 }
 .menu .box-container .box img {
-  height: 15rem;
-  width: 25rem;
+  height: 10rem;
+  width: 20rem;
   align-items: center;
   border-radius: 45%;
 }
@@ -366,13 +366,13 @@ section {
   color: var(--black);
 }
 .menu .box-container .box:hover img {
-  width: 35rem;
-  height: 20rem;
+  width: 25rem;
+  height: 15rem;
   border-radius: 50%;
 }
 .products .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
 .products .box-container .box {
@@ -397,14 +397,14 @@ section {
   width: 100%;
 }
 .products .box-container .box .image img {
-  height: 25rem;
-  width: 30rem;
+  height: 15rem;
+  width: 25rem;
   align-items: center;
   border-radius: 45%;
 }
 .products .box-container .box:hover img {
-  height: 30rem;
-  width: 35rem;
+  height: 20rem;
+  width: 28rem;
   border-radius: 50%;
 }
 .products .box-container .box .content h3 {
